@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container2 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.container3 {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.container3 h1 {
+    text-align: center;
+}
+
+/* navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: left;
+    margin: auto;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    background: white;
+    color: black;
+}
+
+/* home section */
+.foto-diri {
+    border: 2px solid black;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 20px 20px 0px rgb(0, 0, 0);
+}
+
+.foto-diri img {
+    width: 100%;
+}
+
+.kotak {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+}
+
+.pengalaman {
+    padding: 50px;
+    margin: auto;
+}
+
+.overview {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+}
+
+.prestasi {
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    list-style-type: none;
+    display: inline;
+    margin: auto;
+    margin: 20px;
+    box-shadow: 5px 5px 0px rgb(0, 0, 0);
+}
+
+
+
+/* about section */
+
+.about {
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px 50px;
+    height: 250px;
+    box-shadow: 15px 15px 0px rgb(0, 0, 0);
+}
+
+.img-about {
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    float: left;
+}
+
+.txt-about {
+    width: 60%;
+    float: right;
+}
+
+.img-about2 {
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    float: right;
+}
+
+.txt-about2 {
+    width: 60%;
+    float: left;
+}
+
+/* contact section */
+.mt {
+    margin-top: 50px;
+}
+
+.txt-contact {
+    width: 45%;
+    float: left;
+}
+
+.form-contact {
+    width: 45%;
+    float: right;
+}
+
+.bar .nilai {
+    height: 30px;
+    background-color: #F84744;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+input {
+    height: 40px;
+}
+
+input[type=submit] {
+    width: 40%;
+    background: black;
+    color: white;
+}
+
+#skills .bar {
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0 20px 0;
+}
+
+.bar .nilai {
+    height: 30px;
+    background-color: black;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 85%;
+}
+
+.js {
+    width: 65%;
+}
+
+.php {
+    width: 70%;
+}
+
+.ps {
+    width: 100%;
+}
+
+/* footer section */
+.footer {
+    padding-top: 15px;
+    margin-top: 100px;
+    background: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
